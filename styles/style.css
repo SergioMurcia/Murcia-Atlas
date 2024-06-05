@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+   height: 450px;
+   
+    background-image: url(/images/banner-bk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.get{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 470px;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-top: 49px;
+    margin-left: 80px;
+}
+.im1{
+    color: rgb(231, 231, 231);
+}
+.titulo{   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-left: 80px;
+}
+.lore1{
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 12px;
+}
+.lore2{
+    margin-left: 80px;
+    font-size: 12px;
+
+}
+.btn2{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(61, 255, 194);
+    color: rgb(58, 0, 97);
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+.titulo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.882);
+    font-size: 50px;
+}
+.content1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text3{
+    
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.look{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+.content2{
+    margin-top: -700px;
+    height: 1000px;
+    background-image: linear-gradient(168deg, #ffffff 55%, #00ffae 0);
+    
+}
+.lorem3{
+    margin-left: 120px;
+}
+.img3{
+    display: flex;
+    margin-top: -200px;
+    margin-left: 630px ;
+    width: 500px;
+}
+.img4{
+    display: flex;
+    margin-top: -200px;
+    width: 400px;
+    margin-left: 150px;
+    
+}
+.btn1 {
+    
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 110px;
+    border-radius: 20px;
+    height: 35px;
+    width: 110px ;
+    background-color: rgb(7, 9, 62);
+}
+.relleno{
+    background-color: #00ffae;
+    width: 100vh;
+
+}
+.look2{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 720px;
+}
+.lorem4{
+    display: flex;
+    margin-left: 720px;
+}
+.btn9{
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    margin-left: 710px;
+    border-radius: 20px;
+    height: 35px;
+    width: 110px ;
+    background-color: rgb(7, 9, 62);
+}
+/*dsadasdasdas*/
+.Precios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+}
+.Precios .tituloP{
+    margin-top: 125px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.contratos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+.PrimerCO{
+    margin: 1px;
+    height: 470px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Colorcontra{
+    background-color: #1A2740;    
+    color: white;
+}
+
+
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.contratos .div p{ 
+    width: 100PX;
+    display: flex   ;
+    justify-content: end;
+    align-items: end;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.pe{
+    font-weight: 100;
+}
+
+.numero{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.contratos .div h2{
+    display: flex;
+    align-items: end;
+}
+
+.contratos .div {
+    height: 95px;
+}
+
+.textos{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.btn7{
+    background-color:white;
+    border-color: #1a245f;
+    color: #1a245f;
+    border-radius: 40px;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 800;
+    border-style: solid;
+}
+
+
+.btn8{
+    border-radius: 15rem;
+    color: #1a245f;
+    background-color: #00ffae;
+    width:  120px;
+    height: 45px;
+    margin-bottom: 10px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* -.---.-.-.---.-.--.-.-.-..-. */
+
+.Ptroci{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #edeff0;
+    width: 100%;
+    height: 200px;
+}
+
+.Contact{
+    background-image: url(../images/contact-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Info{
+    height: 280px;
+    width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+
+.informacioncon h2{
+    font-size: 45px;
+}
+
+footer{
+    height: 20vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    width: 550px;
+}
+
+.nombreEmail{
+    display: flex;
+    justify-content: space-between;
+}
+.Email{
+    width: 50%;
+}
+#name, #email{
+    height: 40px;
+    width: 270px ;
+    margin-bottom: 30px;
+}
+
+.mensaje{
+    width: 100%;
+}
+
+#mensaje{
+    height: 100px;
+    width: 100%;
+}
+
+#mensaje,#name,#email{
+    background-color: transparent ;
+    border-radius: 7px;
+    border-color: #00ffae;
+}
+
+label{
+    color: #00ffae;
+
+}
+
+.btn10{
+    margin-top: 20px;
+    border-radius: 15rem;
+    color: #1a245f;
+    background-color: #00ffae;
+    width:100%;
+    height: 45px;
+    margin-bottom: 10px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+footer{
+    background-color: #192440;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+
+.redes img{
+    width: 35px;
+}
+@media screen and (min-width:1280px){
+    header{
+        height: 500px;
+    }
+
+    .logo{
+        width: 70px;
+    }
+
+    .look{
+        margin: 0 100px;
+    }
+
+    .Ptroci{
+        width: 100vw;
+        height: 150px;
+    }
+
+    .Ptroci div img {
+        width: 70px;
+        height: 50px;
+    }
+    
+    .h2-form{
+        font-size: 28px;
+    }
+
+    .div .info{
+        width: 100px;
+        font-size: 12px;
+        margin: none;
+    }
+
+    .Email{
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+
+    .nombreEmail .Email input{
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .mensaje .abajo input{
+        margin-bottom: 100px;
+    }
+    footer{
+        height: 100px;
+    }
+
+    footer section img{
+        width: 40px;
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:921px) and (max-width:1279px){
+
+
+
+    .logo div img {
+        width: 40px;
+        height: 50px;
+    }
+
+    .look{
+        width: 40vw;
+    }
+    .img3{
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:920px){
+    .logo {
+        flex-direction: column;
+    }
+
+    .nombreEmail .Email{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nombreEmail .Email input{
+        margin-bottom: 15px;
+    }
+
+    .nombreEmail .mensaje .submit{
+        margin-bottom: 30px;
+    }
+
+    footer section{
+        margin-right: 1px;
+        padding: 10px;
+    }
+
+    footer p{
+        margin-left:60px;
+        justify-content: space-evenly ;
+    }
+
+    .look2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img3{
+        display: flex;
+        width: 30vw;
+        background-color: #00ffae;
+    }
+
+    .PrimerCO{
+        display: flex;
+        margin-left: -60px;
+        justify-content: space-around;
+    
+    }
+}
+
+
